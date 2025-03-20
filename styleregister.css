@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(Wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.register{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2 );
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2 );
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.register h1{
+ text-align: center;
+}
+
+.register .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2 );
+    border-radius: 40px;
+    font-size: 13px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px ;
+}
+
+.terms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14.5px;
+    margin:  -15px 0 15px;
+}
+
+.terms  input{
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.register .Login{
+    text-align: center;
+    font-size: 14.5;
+    margin: 20px 0 15px;
+}
+
+.Login p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Login p a:hover{
+    text-decoration: underline;
+}
